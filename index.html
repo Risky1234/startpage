@@ -30,7 +30,7 @@
         <li><a href="http://varena.ro">varena</a></li>
       </ul>
       <ul>
-        <input type="text" class="searchfield" placeholder="lurk..." />
+        <input type="text" class="searchfield" placeholder="lurk~" />
       </ul>
     </main>
     <script>
@@ -38,7 +38,7 @@
         if (!e) e = window.event;
         var keyCode = e.keyCode || e.which;
         if (keyCode == '13') {
-          window.location.href = "https://duckduckgo.com/?q=" + document.getElementsByClassName('searchfield')[0].value;
+          window.location.href = "https://www.google.lt/?gfe_rd=cr&ei=kdwuWK7CLobN8gfpuqTQBw&gws_rd=ssl#q=" + document.getElementsByClassName('searchfield')[0].value;
         }
       };
     </script>
